@@ -12,6 +12,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .cards-container {
@@ -19,6 +21,8 @@ body {
     justify-content: center;
     margin: 10px;
     gap: 10px;
+    flex-wrap: wrap;
+    max-width: calc(246px * 3 + 10px * 2);
 }
 
 .card {
