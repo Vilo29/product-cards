@@ -35,6 +35,9 @@ body {
 
 .product-name {
     margin: 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .price {
